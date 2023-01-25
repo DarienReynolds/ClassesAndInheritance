@@ -34,26 +34,23 @@ namespace ClassesAndInheritance
 
         //Setters and Getters
         public long ItemNumber
-        { get { return itemNumber; } 
+            { get { return itemNumber; } 
             set { itemNumber = value; } }
         public string Brand
         { get { return brand; } 
             set { brand = value; } }
         public int Quantity
-        { get { return quantity; } 
+            { get { return quantity; } 
             set { quantity = value; } }
         public double Wattage
-        { get { return wattage; }
-            set
-            { wattage = value;} }
+            { get { return wattage; }
+            set { wattage = value;} }
         public string Color
-        { get { return color; }
-            set
-            { color = value; } }
+            { get { return color; }
+            set { color = value; } }
         public double Price
-        { get { return price; }
-            set
-            { price = value;} }
+            { get { return price; }
+            set { price = value;} }
 
         //Appliance Availability Method
         public bool isAvailable(Appliance a1)
