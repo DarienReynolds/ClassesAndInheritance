@@ -41,13 +41,14 @@ namespace ClassesAndInheritance
 
             //Getters and Setters
             public int NumberOfDoors 
-                { get { return numberOfDoors; } }
-            public int Height 
-                { get { return height; } }
+                { get { return numberOfDoors; } set { numberOfDoors = value; } }
+            public int Height
+                { get { return height; } set { height = value; } }
             public int Width 
-                { get { return width; } }
-        
-        
+                { get { return width; } set { width = value; } }
+                
+
+
 
 
     }
